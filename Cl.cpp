@@ -54,7 +54,7 @@ void Kladovshikov_2::Print()
 	cout << *c << endl;
 }
 
-Kladovshikov_2::Kladovshikov_2(const Kladovshikov_2& obj)
+Kladovshikov_2::Kladovshikov_2(const Kladovshikov_2& obj): Kladovshikov_1(obj)
 {
 	*c = *obj.c;
 }
